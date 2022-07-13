@@ -1,2 +1,0 @@
-# lancekk.github.io
-test
