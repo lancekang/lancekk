@@ -12,7 +12,9 @@
         
         <div class="video-test">
             <p class="test">비디오1 (src + muted)</p>
-            <video id="video1" src="" type="video/mp4" playsinline muted controls autoplay></video>
+            <video id="video1" playsinline muted controls autoplay>
+                <source src="video.mp4" type="video/mp4">
+            </video>
         </div>
 
         <!-- <div class="video-test">
@@ -56,9 +58,9 @@
             </video>
         </div> -->
         <script>
-            var video = document.querySelector('#video1');
+            // var video = document.querySelector('#video1');
 
-            video.src = 'video.mp4';
+            // video.src = '';
         </script>
     </div>
 </body>
