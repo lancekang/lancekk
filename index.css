@@ -23,6 +23,7 @@ code {
 video {
   width:80vw;
   height:auto;
+  cursor: pointer;
 }
 
 .test {
