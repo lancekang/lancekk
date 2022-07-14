@@ -12,13 +12,13 @@
         
         <div class="video-test">
             <p class="test">비디오1 (src + muted)</p>
-            <video src="video.mp4" type="video/mp4" playsinline muted controls></video>
+            <video id="video1" src="" type="video/mp4" playsinline muted controls autoplay></video>
         </div>
 
-        <div class="video-test">
+        <!-- <div class="video-test">
             <p class="test">비디오2 (src + muted)</p>
             <video src="2m.mp4" type="video/mp4" playsinline muted controls></video>
-        </div>
+        </div> -->
 
         <!-- <div class="video-test">
             <p class="test">비디오3 (src + muted + autoplay + loop)</p>
@@ -55,6 +55,11 @@
                 <source src="video.mp4" type="video/mp4">
             </video>
         </div> -->
+        <script>
+            var video = document.querySelector('#video1');
+
+            video.src = 'video.mp4';
+        </script>
     </div>
 </body>
 </html>
