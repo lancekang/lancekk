@@ -20,9 +20,14 @@ code {
   margin:40px auto;
 }
 
-.text {
-  font-size:24px;
+video {
+  width:100%;
+  height:auto;
+}
+
+.test {
+  font-size:20px;
   line-height:1.56;
-  font-weight:500;
+  font-weight:bold;
   color:#000;
 }
